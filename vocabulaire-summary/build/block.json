@@ -1,0 +1,28 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "homegrade-content-blocks/vocabulaire-summary",
+  "version": "0.1.0",
+  "title": "Vocabulaire de la fiche",
+  "category": "homegrade-blocks",
+  "icon": "testimonial",
+  "description": "Pour afficher tout le vocabulaire contenu dans la fiche",
+  "supports": {
+    "html": false
+  },
+  "textdomain": "homegrade-blocks",
+  "editorScript": "file:./index.js",
+  "script": "file:./frontend-file.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css",
+  "attributes": {
+    "tooltipWords": {
+      "type": "array",
+      "default": []
+    },
+    "thematiqueName": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}
